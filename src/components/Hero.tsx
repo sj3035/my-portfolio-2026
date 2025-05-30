@@ -6,6 +6,12 @@ const Hero = () => {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.querySelector('#contact') || 
+                          document.querySelector('section:last-child');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
       {/* Background effects */}
@@ -32,12 +38,12 @@ const Hero = () => {
             >
               Learn More
             </button>
-            <a 
-              href="mailto:sjayanth2004@gmail.com"
+            <button 
+              onClick={scrollToContact}
               className="border-2 border-white/20 text-white px-8 py-3 rounded-lg hover:bg-white/10 backdrop-blur-sm transition-all duration-300 hover:scale-105"
             >
               Get In Touch
-            </a>
+            </button>
           </div>
         </div>
         

@@ -14,16 +14,44 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <p className="text-lg text-slate-300 leading-relaxed">
-              I'm a passionate Computer Science and Engineering student at SRM Institute of Science and Technology, 
-              with a strong focus on data science and analytics. Currently maintaining a CGPA of 9.28, 
-              I'm dedicated to excellence in both academics and practical applications.
-            </p>
-            <p className="text-lg text-slate-300 leading-relaxed">
-              As a Data Science & Analytics Intern at Innovate, I collaborate with developer teams to design 
-              reliable technological solutions and contribute to modern application development. I'm always 
-              eager to learn emerging trends and best practices in the field.
-            </p>
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  Passionate Computer Science and Engineering student at SRM Institute of Science and Technology
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  Strong focus on data science and analytics with a CGPA of 9.28
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  Dedicated to excellence in both academics and practical applications
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  Data Science & Analytics Intern at Innovate, collaborating with developer teams
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  Contributing to reliable technological solutions and modern application development
+                </p>
+              </div>
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  Always eager to learn emerging trends and best practices in the field
+                </p>
+              </div>
+            </div>
           </div>
           
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-2xl shadow-2xl">
